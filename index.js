@@ -7,7 +7,7 @@ app.use(cors()); // Allow all origins
 
 // Base URLs
 const SEARCH_BASE_URL = "https://jpapi-staging.jackpot.bet/casino/games/search";
-const GAMES_BASE_URL = "https://jpapi-staging.jackpot.bet/casino/games/";
+const GAMES_BASE_URL = "https://jpapi-staging.jackpot.bet/casino/games";
 
 // Search API proxy
 app.get("/search", async (req, res) => {
